@@ -19,12 +19,13 @@
 </html>
 
 <?php
-function calcula_area($comprimento, $largura) {
+
+function calcula_area($comprimento, $largura){
     $area = $comprimento * $largura;
     return $area;
 }
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $comprimento = (int)$_POST['comprimento'];
     $largura = (int)$_POST['largura'];
 
@@ -35,4 +36,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Largura: " . $largura . "<br><br>";
     echo "Área: " . $area;
 }
+
 ?>
