@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
                 $mail->Username   = 'toledomiranda.maria23@gmail.com';
-                $mail->Password   = 'blyr shrj vnpj tjt';
+                $mail->Password   = 'knpk duiu lgpf shxb';
                 $mail->SMTPSecure = 'tls';
                 $mail->Port       = 587;
 
