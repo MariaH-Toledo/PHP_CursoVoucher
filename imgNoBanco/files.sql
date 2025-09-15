@@ -1,0 +1,7 @@
+CREATE DATABASE files;
+USE files;
+
+CREATE TABLE path(
+id int AUTO_INCREMENT PRIMARY KEY,
+caminho VARCHAR(200)
+);
